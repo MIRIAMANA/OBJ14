@@ -1,0 +1,81 @@
+* {
+
+        font-family: "Quicksand", sans-serif;
+        font-size: large;
+
+
+}
+
+
+h1 {
+
+    text-align: center;
+    
+
+}
+
+h2 {
+
+    text-align: center;
+}
+
+p{
+
+    text-align: center;
+}
+
+
+.animar {
+    position: relative;
+    animation: moverDerecha 3s infinite;
+  }
+  
+  @keyframes moverDerecha {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 100px;
+    }
+    100% {
+      left: 0;
+    }
+  }
+
+
+header {
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+
+
+section {
+    width: 1366px;
+    height: 1800px;
+    margin:  0 auto;
+    
+}
+
+
+
+
+.Arriba {
+    width: 1366px;
+    height: 100px;
+    text-align: center;
+
+
+}
+
+
+
+
+.Abajo {
+    margin-top: 250px;
+    position: fixed;
+    
+ 
+    
+}
